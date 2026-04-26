@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SUSHI's Art</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0e0e0e;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 24px;
+}
+
+/* SECTION */
+.section {
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* SUSHI ART */
+.sushi {
+    background: linear-gradient(135deg, #0ea5e9, #facc15, #22c55e, #ef4444);
+    color: #000;
+}
+
+/* STICKRS */
+.stickrs {
+    background: #ffffff;
+    color: #000;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.stickrs::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ff3b3b;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+}
+
+/* BUTTONS */
+.button {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dark-btn {
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.whatsapp {
+    background: #25D366;
+    color: white;
+    margin-top: 40px;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SUSHI ART -->
+    <div class="section sushi">
+        <h2>SUSHI’s Art</h2>
+        <p>Original artworks & visual experiments</p>
+
+        <!-- LINKS INSIDE -->
+        <a href="https://sushrut-phatak.github.io/Shop" class="button dark-btn">
+            Visit Website
+        </a>
+
+        <a href="https://www.youtube.com/@Sushi-s-Art/shorts" class="button dark-btn">
+            YouTube Channel
+        </a>
+
+    </div>
+
+    <!-- STICKRS -->
+    <div class="section stickrs">
+        <h2>STICKRS</h2>
+        <p>the greatest and coolest stickers of all time and every time</p>
+
+    <!-- GLOBAL CTA -->
+    <a href="https://wa.me/918208952199" class="button whatsapp">
+        Contact on WhatsApp
+    </a>
+
+</div>
+
+</body>
+</html>
